@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    {%for c in client_list%}
+    <h1><a href="/{{c.id}}">{{c.cname|upper}}</a></h1>
+    {% endfor%}
+  </body>
+</html>

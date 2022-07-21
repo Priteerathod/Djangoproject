@@ -1,0 +1,21 @@
+h1{
+  color: white;
+  background-color: maroon;
+  text-align: center;
+  font-size: 40px;
+}
+.d1{
+  text-align: center;
+  color: red;
+  background-color: red;
+}
+a{
+  text-align: center;
+  color: blue;
+  background-color: pink;
+  font-size: 25px;
+  border-radius: 15px;
+}
+body{
+  background-color: lightpink;
+}
